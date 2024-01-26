@@ -1,0 +1,53 @@
+.overlay{
+    background-image: url(./Images/background\ shipment.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.calls{
+    height: 100%;
+    width: 100%;
+}
+
+
+.anoda{
+    text-align: left;
+}
+
+#pass{
+    border-radius: 5px;
+    background-color: red;
+    background:red;
+    height: 5px;
+    width: 200px;
+}
+
+.linking {
+    text-decoration: none;
+}
+
+.mess{
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+}
+
+@media (max-width: 768px){
+        .overlay{
+            min-height: 60vh;
+        }
+    
+        .calls{
+            font-weight: bolder;
+            text-align: center;
+        }
+    
+        .anoda{
+            text-align: center;
+        }
+
+        .lim{
+            text-align: center;
+        }
+    }
